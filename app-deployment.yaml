@@ -17,7 +17,7 @@ spec:
         image: rishabhmishra01/hr-app-management-system-main-app:latest
         ports:
         - containerPort: 3000
-       env:
+        env:
         - name: MONGO_URI
           valueFrom:
             configMapKeyRef:
